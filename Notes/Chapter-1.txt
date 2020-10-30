@@ -1,0 +1,70 @@
+What is Node.JS?
+--------------------------------------
+
+Frontend (browser)                          Backend(server)
+---------------------------------------------------------------
+JS                                              Node Allows JS to run on server
+
+
+How Computers understands code?
+------------------------------------------
+
+1. Understand only machine code
+2. Assembly Language
+3. Programming languages (C, C++)
+
+Programming languages compiled to machine code and executes program.
+
+Js script away from programming language like c++ that is compiled to machine code.
+
+As we know, Js is only run only runs inside browser.
+
+Browser uses, V8 engine(written in c++).
+
+v8 engine compiles javascript into machine code. But we can't run js outside the browser because there is no v8 engine support
+outside the browser.
+
+Node js Comes here into picture with a new solution.
+
+Node js also written in C++, which wraps V8 endine.
+
+                    #####################################
+                    ######        Node JS           #####    
+                    #####################################
+JS ---------------- #                                   #-----------------------Machine Code
+                    #           V8 engine               #
+                    #                                   #
+                    #####################################
+
+Node js also includes more features to javascript like
+    1. Accessing file system (Read and write files)
+    2. Connect with database.
+    3. Act as a server for content
+
+Javascript is initially created for client side scripting and creating intractive web with DOM manipulation.
+
+As Node allows it to runs on server and provides some more add on functionality but some client side functionalities
+doesn't work on server like DOM Manipulation.
+
+------------------------------------------------------------------------------------------
+
+Role Of Node JS
+----------------------
+
+1. Node Js able you to answer incoming request from the server.
+
+Benefits of Node JS
+-------------
+1. No need to learn extra language for server.
+2. Can shared code between front and back end.
+3. Node js has a massive community behind it.
+4. Huge amount of third party packages & tools to help.
+
+Installing Node Js
+-------------------------
+
+Say Hello with Node Js
+------------------------------
+    Chapter-1 | Example-1
+
+
