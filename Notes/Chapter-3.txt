@@ -1,0 +1,19 @@
+Clients and Server
+---------------------
+1. How client and server works ?
+
+2. Ip Addresses and Domains
+
+3. Creating a Server
+
+4. localhost ------------>
+                        |
+                        |
+                    127.0.0.1
+                        |
+                        |
+    Computer <-----------
+
+5. Port numbers
+        Port numbers are like 'doors' into a computer
+        Ex: localhost:3000
