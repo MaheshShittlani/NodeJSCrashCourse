@@ -1,0 +1,14 @@
+NPM
+----------------------
+1. lodash
+2. nodemon
+
+
+package.json File
+--------------------------
+1. Create package.json - npm init
+
+
+Dependencies
+------------------
+1. package.json.lock File
