@@ -1,0 +1,46 @@
+1. Creating Sample functions
+
+-----------------------------------
+
+Node js enable javascript executes on server. but some other thing are different on client and server.
+
+
+1. global object V/S window object.
+--------------------------------------------
+
+window object is the global object on client side.
+
+window.setInterval();
+window.alert();
+
+
+global object is the global object on server side.
+
+global.alert(); // Not available
+global.setInterval(); // Available same as window.setInterval();
+
+
+----------------------------------------------------------------
+Module & require.
+-----------------------------
+
+0. OS Module
+1. File System Module
+    fs.existsSync('dir/filename');
+    fs.mkdir();
+    fs.rmdir();
+    fs.unlink();
+
+
+Strams & Buffer
+-----------------------
+
+Stream: 
+--------
+Start using data, before it has finished loading.
+
+Buffer
+-------
+Buffer is a small packet of data and sent to the client as it fills.
+
+
