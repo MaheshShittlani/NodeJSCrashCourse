@@ -1,0 +1,36 @@
+Middleware & Static files
+-----------------------------
+             Request
+        ------------>---------------
+        |                           |
+    Client                        Server
+        |                           |
+        |                       -------------------
+        |                       |    Middleware    |
+        |                       --------------------
+        |                            |
+        |                            |
+        ------------<----------------
+                    Response         
+            
+Middleware is any code that executes for any request before sending a response.
+app.use(func) is used to write Middleware code.
+We can have more than one Middleware on server.
+Middleware runs top to bottom.
+
+
+Middleware examples
+---------------------------
+1. Logger Middleware to log details of every request
+2. Authentication check middleware for projected routes
+3. Middle to parse JSON data from requests
+4. Return 404 pages.
+
+Using next();
+--------------------
+
+3rd Party Middleware
+--------------------------
+morgan  - Logger middleware
+
+Static files

@@ -1,0 +1,43 @@
+MongoDB & Mongoose
+-----------------------
+
+SQL V/S NoSQL
+-------------------------------
+
+SQL                         -                   NoSQL
+----------------------------------------------------------
+
+Tables                      -               Collections
+Rows                        -               Documents               
+Columns                     -
+
+
+------------------------------------------------------------------
+
+Collections
+-------------
+    User Collection
+        User document
+        User document
+        User document
+
+    Blog Collection
+        Blog document
+        Blog document
+        Blog document
+
+Blog Document
+----------------
+ {
+     "id" : ObjectId(123),
+     "title" : "Blog title",
+     "snippet" : "Blog snippet",
+     "body" : "Blog body"
+ }
+
+
+ MongoDB Setup & MongoDB Atlas
+ -------------------------------------
+ 1. Setup mongodb locally
+ 2. Use mongodb cloud named mongodb atlas
+ 

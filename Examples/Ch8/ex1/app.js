@@ -1,5 +1,6 @@
 const { request, response } = require('express');
 const express = require('express');
+const morgan = require('morgan');
 
 //express app
 const app = express();
@@ -12,6 +13,22 @@ app.set('view engine','ejs');
 app.listen(3000,'localhost',() => {
     console.log("Listening request on port 3000");
 });
+
+// app.use((request, response, next) => {
+//     console.log("URL "+request.url);
+//     console.log("Method "+request.method);
+//     console.log("Path "+request.path);
+//     console.log("Host "+request.hostname);
+//     next();
+// });
+
+// app.use(morgan('dev'));
+
+// Middleware & Static files
+app.use(express.static('public'))
+
+const dbURI = 'mongodb+srv://mahesh:maheshblog@nodejstuts.cl5kw.mongodb.net/NodeJsTuts?retryWrites=true&w=majority';
+
 
 app.get('/', (request,response) => {
     const blogs = [
